@@ -34,19 +34,16 @@ middle = (first+last)/2;
 int main(int argc, char **argv)
 {
 	 int n,key,m;
-	 printf("enter the number of test case");
-	 scanf("%d",&n);
-	 for(int i=0;i<n;i++)
+	 for(int i=0;i<argv[0];i++)
 	 {
-		 printf("enter the count and search element");
-		 scanf("%d %d",&key,&m);
-		 int a[m];
-		 for(int j=0;j<m;j++)
+		 int a[(argv[1]];
+		 for(int j=0,k=3;j<argv[1];j++,k++)
 		 {
-			 scanf("%d",&a[j]);
-			 
+			 a[i]=argv[k]
 		 }
-		 binary(a,m,key);
+		 }
+		 
+		 binary(a,m,argv[2]);
 	 }
 	 return 0;
 }
