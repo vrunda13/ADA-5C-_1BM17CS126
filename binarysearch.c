@@ -43,7 +43,7 @@ int main(int argc, char **argv)
 		 }
 		 }
 		 
-		 binary(a,m,argv[2]);
+		 binary(a,argv[1],argv[2]);
 	 }
 	 return 0;
 }
